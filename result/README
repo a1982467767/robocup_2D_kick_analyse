@@ -1,0 +1,17 @@
+# RoboCup2DSimulation
+Some works on RoboCup 2D Simulation
+This software needs to be compiled in a python environment
+This software is not suitable for analyzing penalty data.
+Copyright (C) 2018 YuShan SunChen
+
+
+result路径下保存着每次采数的结果
+
+read-histV4.py:
+	画正态分布函数，将dist，angle，num分文件夹保存图片结果
+pltBarbyAngle.py:
+	以角度数据画柱状折线图
+pltBarbyDist.py:
+	以距离数据画柱状折线图
+togather_dist.py、togather_angle.py、togather_kick.py
+	分别将该目录下所有的数据合并获得总数据
