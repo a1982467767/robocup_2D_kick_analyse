@@ -2,7 +2,7 @@ Functions:
 	一个用于按球场分区(0到7区)画出各个球队的kick_by_angle, kick_by_dist, angle_count 信息的工具,并将其画在一张图上面
 
 Author: 
-	YuShan2d Qian Jipeng(C)
+	YuShan2d Sun Chen ,Qian Jipeng(C)
 
 Usage: 
 	1.sep_gather.py 是将每个球队的三种信息集成到一个文本文件中
