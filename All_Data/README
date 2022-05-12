@@ -1,0 +1,18 @@
+Functions: 
+	一个用于按球场分区(0到7区)画出各个球队的kick_by_angle, kick_by_dist, angle_count 信息的工具,并将其画在一张图上面
+
+Author: 
+	YuShan2d Qian Jipeng(C)
+
+Usage: 
+	1.sep_gather.py 是将每个球队的三种信息集成到一个文本文件中
+	2.draw_mul.py 是画图函数，其接受shell脚本传进去的参数,也可单独进行画图 python3 draw_mul.py  teamname area
+	3.start.sh 是启动脚本，在终端键入 ./start.sh 即可运行该工具
+	4.image_composed.py 是拼图函数,把每个队下八个区域的图片按球场区域拼成一张图片
+
+Requirements: 
+	1.matplotlib
+	2.pandas
+	
+Attention:
+	注意在同一个文件夹下运行，否则相关文件路径需要修改
